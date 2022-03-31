@@ -5,7 +5,7 @@
     </div>
     <div class="posts">
         @foreach($latestCourses as $courseItem)
-            @include('Front::layout.singleCourseBox')
+            @include('Front::layout.single-course-box')
         @endforeach
     </div>
 </div>
